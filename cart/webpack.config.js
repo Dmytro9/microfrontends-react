@@ -13,6 +13,11 @@ module.exports = {
       exposes: {
         "./CartShow": "./src/index",
       },
+      // shared: {
+      //   faker: {
+      //     singleton: true, // will show the warning about not compatible npm lib versions in diff modules
+      //   },
+      // },
       shared: ["faker"],
     }),
     new HtmlWebpackPlugin({
