@@ -11,11 +11,11 @@ module.exports = {
       name: "cart",
       filename: "remoteEntry.js",
       exposes: {
-        "./CartShow": "./src/index",
+        "./CartShow": "./src/bootstrap",
       },
       // shared: {
       //   faker: {
-      //     singleton: true, // will show the warning about not compatible npm lib versions in diff modules
+      //     singleton: true, // will show the warning about not compatible npm lib versions in diff modules/projects
       //   },
       // },
       shared: ["faker"],
